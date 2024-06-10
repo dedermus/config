@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenAdmin\Admin\Config;
+namespace OpenAdminCore\Admin\Config;
 
-use OpenAdmin\Admin\Admin;
-use OpenAdmin\Admin\Extension;
+use OpenAdminCore\Admin\Admin;
+use OpenAdminCore\Admin\Extension;
 
 class Config extends Extension
 {
@@ -42,7 +42,7 @@ class Config extends Extension
             /* @var \Illuminate\Routing\Router $router */
             $router->resource(
                 config('admin.extensions.config.name', 'config'),
-                config('admin.extensions.config.controller', 'OpenAdmin\Admin\Config\ConfigController')
+                config('admin.extensions.config.controller', 'OpenAdminCore\Admin\Config\ConfigController')
             );
         });
     }

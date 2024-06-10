@@ -1,13 +1,13 @@
 <?php
 
-namespace OpenAdmin\Admin\Config;
+namespace OpenAdminCore\Admin\Config;
 
-use OpenAdmin\Admin\Controllers\HasResourceActions;
-use OpenAdmin\Admin\Facades\Admin;
-use OpenAdmin\Admin\Form;
-use OpenAdmin\Admin\Grid;
-use OpenAdmin\Admin\Layout\Content;
-use OpenAdmin\Admin\Show;
+use OpenAdminCore\Admin\Controllers\HasResourceActions;
+use OpenAdminCore\Admin\Facades\Admin;
+use OpenAdminCore\Admin\Form;
+use OpenAdminCore\Admin\Grid;
+use OpenAdminCore\Admin\Layout\Content;
+use OpenAdminCore\Admin\Show;
 
 class ConfigController
 {

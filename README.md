@@ -16,7 +16,7 @@ Config manager for open-admin
 ## Installation
 
 ```
-$ composer require open-admin-ext/config
+$ composer require dedermus/config
 
 $ php artisan migrate
 ```

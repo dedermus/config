@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\Config;
+namespace OpenAdminCore\Admin\Config;
 
 use Illuminate\Support\ServiceProvider;
 

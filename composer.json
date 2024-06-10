@@ -1,14 +1,14 @@
 {
-    "name": "open-admin-ext/config",
-    "description": "Config extension for open-admin, thanks to z-song",
+    "name": "dedermus/config",
+    "description": "Config extension for open-admin-core, thanks to z-song",
     "type": "library",
     "keywords": ["open-admin", "setting"],
-    "homepage": "https://github.com/open-admin-ext/config",
+    "homepage": "https://github.com/dedermus/config",
     "license": "MIT",
     "authors": [
         {
-            "name": "open-admin",
-            "email": "infog@open-admin.org"
+            "name": "dedermus",
+            "email": "dedermus@yandex.ru"
         }
     ],
     "require": {
@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "OpenAdmin\\Admin\\Config\\": "src/"
+            "OpenAdminCore\\Admin\\Config\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "OpenAdmin\\Admin\\Config\\ConfigServiceProvider"
+                "OpenAdminCore\\Admin\\Config\\ConfigServiceProvider"
             ]
         }
     }
