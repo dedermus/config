@@ -28,7 +28,7 @@ Open `app/Providers/AppServiceProvider.php`, and call the `Config::load()` metho
 
 namespace App\Providers;
 
-use OpenAdmin\Admin\Config\Config;
+use OpenAdminCore\Admin\Config\Config;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 
