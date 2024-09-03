@@ -18,10 +18,11 @@ class CreateConfigTable extends Migration
         $table = config('admin.extensions.config.table', 'admin_config');
 
         Schema::connection($connection)->create($table, function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('name')->unique();
-            $table->string('value');
-            $table->text('description')->nullable();
+            $table->comment('справочник переменных');
+            $table->id()->comment('инкремент ID');
+            $table->string('name')->comment('название переменной')->unique();
+            $table->string('value')->comment('значение');
+            $table->text('description')->comment('описание')->nullable();
             $table->timestamps();
         });
     }
